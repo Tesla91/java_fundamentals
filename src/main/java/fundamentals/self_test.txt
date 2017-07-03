@@ -12,21 +12,22 @@ WeightOnMoon {
         system.out.println ("Weight on the moon " + weight_on_moon);
                 }
         }
-
 class InToM {
     public static void main (String args[]) {
         double inches;
         double meters;
+        int counter;
 
         counter = 0;
-        for(inches = 1; inches <= 144; inches++)
+        for(inches = 1; inches <= 144; inches++) {
             meters = inches / 39.37;
-            System.out.println (inches + "inches is " + meters + "meters.");
+            System.out.println(inches + "inches is " + meters + "meters.");
 
-        counter++;
-        if(counter == 12) {
-            System.out.println ();
-            counter = 0;
+            counter++;
+            if (counter == 12) {
+                System.out.println();
+                counter = 0;
+            }
         }
     }
 }
