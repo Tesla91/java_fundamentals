@@ -1,18 +1,8 @@
-WeightOnMoon {
-        public static void main (String [] args) {
-        int weight;
-        int weight_on_moon;
+package main.java.fundamentals;
 
-        weight = 145;
-
-        system.out.println ("Weight on earth " + weight);
-
-        weight_on_moon = weight * 17 / 100;
-
-        system.out.println ("Weight on the moon " + weight_on_moon);
-                }
-        }
-
+/**
+ * Created by nicola on 7/3/17.
+ */
 class InToM {
     public static void main (String args[]) {
         double inches;
@@ -30,4 +20,3 @@ class InToM {
         }
     }
 }
-
