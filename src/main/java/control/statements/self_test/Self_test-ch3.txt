@@ -1,0 +1,35 @@
+1. See ReadCharacters
+
+2. if(condition)
+    statement;
+   else if(condition)
+    statement;
+   .
+   .
+   .
+   else
+    statement;
+
+3. if (y > 100)
+
+4. for (int i = 1000; i <= 0; i = -2)
+
+5. No
+
+6. Break is used to exit a loop, as well as a form of goto(this is bad!)
+
+7. After a while
+
+8.  0 1
+    2 3
+    4 5
+    6 7
+    8 9
+
+9. see ProgressionLoop
+
+10. see ChangingCases
+
+11. An infinite lupe is a lupe that runs forever.
+
+12. Yes
