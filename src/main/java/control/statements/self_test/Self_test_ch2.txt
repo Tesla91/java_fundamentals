@@ -1,0 +1,23 @@
+1. To make it portable on all platforms
+
+2. Javas character type is char which is 16 bit where other character types are 8 bit like ASCII
+
+3. False
+
+4. System.out.println(“One\nTwo\nThree”);
+
+5. The println need to be within the block
+
+6. If the increment operator is before the letter then it will preform the operation before obtaining the letters value. If the increment operator is after the letter then it will preform the operation after obtaining the letters value.
+
+7. if(a != 0 && (b % a) == 0)
+
+8. They are promoted it int.
+
+9. A cast is needed when a narrowing conversion is being used.
+
+10. See PrimeNumbers.java
+
+11. No
+
+12. Yes
