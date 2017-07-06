@@ -1,0 +1,33 @@
+1. int [] array = new int [12]
+    int [] array2;
+    array2 = new int[12];
+
+2. int [] array = { 1, 2, 3, 4, 5};
+
+3. See DoubleValues
+
+4. See Sort
+
+5. indexOf() finds the first occurrence and lastIndexOf() finds the last occurrence.
+
+6. sout("I like Java".length());
+    sout("I like Java".charAt());
+
+7. see XOR Encode
+
+8. No
+
+9. y = x < 0 ? 10 :20
+
+10. Logical Operator
+
+11. Yes
+
+12. >>>
+
+13. see MinMax
+
+14. No. For the outer loop you need the counter so a for-each loop can not be used. For the inner loop it runs
+    backwards which a for-each loop can not be used.
+
+15. Yes
