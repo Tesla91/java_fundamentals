@@ -1,0 +1,37 @@
+1. No
+
+2. precede
+
+3. See Stack
+
+4. public static void swap(test tst1, test tst2);
+int b;
+
+t = tst1.a;
+tst1.a = tst2.a;
+tst2.a =b;
+
+5. No
+
+6. see Recursive
+
+7. static
+
+8. To initialize a class before the class can be used for anything else.
+
+9. a non-static nested class
+
+10. Private
+
+11. signature
+
+12. value
+
+13. see Varargs
+
+14. yes
+
+15. int method(int a, int b) {...}
+
+int method(int a, int b){...}
+
