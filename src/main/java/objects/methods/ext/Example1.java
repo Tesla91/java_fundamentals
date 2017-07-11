@@ -20,6 +20,8 @@ class MyClass {
 class AccessDemo {
     public static void main(String args[]) {
         MyClass ob = new MyClass();
+
+
         //ob.callPrivate();
         int xyz = 10;
         ob.setAlpha(xyz);

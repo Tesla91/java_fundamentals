@@ -15,7 +15,7 @@ class Queue {
         putloc = getloc = 0;
     }
 
-    // put a characer into the queue
+    // put a character into the queue
 
     public void put(char ch) {
         if(putloc==q.length) {
