@@ -1,0 +1,24 @@
+1. No, a superclass does not have access to the members of a subclass. Yes, a subclass has access to
+public and protected members of its superclass.
+
+2. see STwoDShape
+
+3. By making it private.
+
+4. Super is used to call a superclass constructor. Super is also used to access a member of the superclass.
+
+5. Alpha then beta then gamma.
+
+6.
+
+7. An abstract class contains at least one abstract method.
+
+8. You use the final keyword for both.
+
+9.
+
+10. The Objects Class
+
+11. True
+
+12. final
