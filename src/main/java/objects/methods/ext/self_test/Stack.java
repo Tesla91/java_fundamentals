@@ -7,36 +7,45 @@ public class Stack {
 
     // these members are now private
     private char s[]; // this array holds the stack
-    private int push, pop; // the put and get indices
+    private int pushloc, poploc; // the put and get indices
 
     Stack(int size) {
         s = new char[size]; // allocate memory for stack
-        push = pop = 0;
+        pushloc = poploc = 0;
     }
 
-    // Put a characer into the stack.
+    // Put a character into the stack.
     void push(char ch) {
-        if(push==s.length) {
+        if(pushloc==s.length) {
             System.out.println(" -- Stack is full.");
             return;
         }
-
-        s[push++] = ch;
+        pushloc = poploc;
+        s[pushloc++] = ch;
     }
 
     // Get a character from the stack.
     char pop() {
-        if(pop == pop) {
+        if(pushloc == 0) {
             System.out.println(" -- Stack is empty.");
             return (char) 0;
         }
 
-        return s[pop++];
+        pushloc--;
+        return s[poploc--];
+
     }
 }
 
 class SDemo {
     public static void main(String[] args) {
+
+        Stack x = new Stack(5);
+        x.push('a');
+        x.push('b');
+        char c = x.pop(); // = 'b'
+        char a = x.pop(); // ='a'
+
 
     }
 }

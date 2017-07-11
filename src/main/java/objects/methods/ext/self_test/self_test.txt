@@ -9,7 +9,7 @@ int b;
 
 t = tst1.a;
 tst1.a = tst2.a;
-tst2.a =b;
+tst2.a = b;
 
 5. No
 
