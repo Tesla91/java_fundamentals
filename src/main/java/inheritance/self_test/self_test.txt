@@ -9,13 +9,13 @@ public and protected members of its superclass.
 
 5. Alpha then beta then gamma.
 
-6.
+6.It is the type of object being reffed to the determines which version of a method is called.
 
 7. An abstract class contains at least one abstract method.
 
 8. You use the final keyword for both.
 
-9.
+9. By enabling you to create a generalized class structure that can be implemented by a variety of classes.
 
 10. The Objects Class
 
