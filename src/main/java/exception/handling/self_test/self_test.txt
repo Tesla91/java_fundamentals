@@ -1,0 +1,27 @@
+1.Throwable
+
+2. The try and catch statements work together. Try blocks monitor for code and catch is where the exception is caught.
+
+3. There is no try block.
+
+4. The program will crash.
+
+5. catch (A exc) needs to be after catch (B exc) if not catch (A exc) will catch everything.
+
+6. Yes
+
+7. False, it is executed when a try block ends.
+
+8. checked exceptions
+
+9. myClass does not extend Throwable.
+
+10. See Stack
+
+11. The JVM, your program, or a throw statement.
+
+12. Exception and Error
+
+13. It allows one catch to catch different exceptions.
+
+14. No
