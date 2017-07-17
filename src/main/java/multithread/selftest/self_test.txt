@@ -1,0 +1,23 @@
+1. It lets you utilize the idle time that is present in most programs.
+
+2.Thread class and Runnable Interface.
+
+3. When you want to override one of Threads methods.
+
+4. MyThread.join();
+
+5. MyThread.setPriority(Thread.NORM_PRIORITY+3);
+
+6. It allows only one thread to run at a time.
+
+7. interthread communication
+
+8. Skipping this time around.
+
+9. They have been depreciated because they can cause serious problems in your code.
+
+10. final String getName()
+
+11.A boolian. It returns true if the thread that calls it is still running and it returns false if its not.
+
+12. Skipping this time around.
