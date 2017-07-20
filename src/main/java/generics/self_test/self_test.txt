@@ -12,9 +12,9 @@
 
 7. Yes
 
-8. <T> T MyGen(T o) {} ???????
+8. <T> T myGen(T o) {}
 
-9. class MyClass<T, V extends T> inplements IGenIF<T, V extends T>{}
+9. class MyClass<T, V extends T> implements IGenIF<T, V>{}
 
 10. Counter raw = new Counter();
 
