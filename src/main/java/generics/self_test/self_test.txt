@@ -1,0 +1,27 @@
+1. D
+
+2. No
+
+3. class FlightSched<T, V> {}
+
+4. class FlightSched<T, V extends Thread> {}
+
+5. class FlightSched<T, V extends T> {}
+
+6. It is a wildcard and it represents an unknown type.
+
+7. Yes
+
+8. <T> T MyGen(T o) {} ???????
+
+9. class MyClass<T, V extends T> inplements IGenIF<T, V extends T>{}
+
+10. Counter raw = new Counter();
+
+11. No
+
+12. See IGenStack
+
+13. Diamond Operator
+
+14. MyClass<Double, String> obj = new MyClass<>(1.1, "Hi");
